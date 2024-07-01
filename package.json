@@ -13,8 +13,6 @@
   "support": "help@merkulov.design",
   "license": "Envato License https://1.envato.market/KYbje",
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "@emotion/styled": "^11.10.5",
     "@googlemaps/react-wrapper": "^1.1.35",
     "@loadable/component": "^5.15.3",
@@ -33,8 +31,10 @@
     "leaflet": "^1.9.4",
     "polished": "^4.2.2",
     "prop-types": "^15.8.1",
+    "react": "^18.3.1",
     "react-countup": "^6.4.2",
     "react-csv": "^2.2.2",
+    "react-dom": "^18.3.1",
     "react-dropzone": "^14.2.3",
     "react-ga4": "^2.1.0",
     "react-gauge-chart": "^0.4.1",
@@ -89,6 +89,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@faker-js/faker": "^8.0.2",
+    "@vercel/node": "^3.2.0",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.44.0",
     "eslint-config-react-app": "^7.0.1",
